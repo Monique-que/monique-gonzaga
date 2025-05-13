@@ -563,12 +563,14 @@ footer {
     header img {
         width: 50px;
         height: 50px;
+        margin-left: 50px;
     }
 
     header h1 {
         border-radius: 20px;
         padding-top: 20px;
         padding-bottom: 20px;
+        margin-left:-150px ;
     }
 
     header nav ul li a {
@@ -585,7 +587,7 @@ footer {
      
     .content #image {
         float: none;
-        border: solid 1px;
+        border: none;
         margin-top: -50px;
         margin-left: 50px;
     }
@@ -692,11 +694,11 @@ footer {
 
     .article1 {
         transition: all 1s;
-        margin-left: -90px;
+        margin-left: -109px;
         justify-content: space-between;
-        display: flex;
         margin-top: 20px;
         animation: none;
+        display: flex;
     }
 
     .article1:hover {
@@ -710,6 +712,7 @@ footer {
         height: 150px;
         margin: 0;
         animation: none;
+        margin-left: 100px;
     }
 
     .data1 {
